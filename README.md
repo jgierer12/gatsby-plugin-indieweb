@@ -1,4 +1,4 @@
-# gatsby-plugin-indieweb
+# :globe_with_meridians: gatsby-plugin-indieweb
 
 > [IndieWeb](https://indieweb.org)-ify your Gatsby site
 
