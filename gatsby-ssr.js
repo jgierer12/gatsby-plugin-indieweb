@@ -1,5 +1,5 @@
 const React = require(`react`);
-const deepmerge = require(`deepmerge`);
+const merge = require(`merge-deep`);
 
 const getKey = (scope, key) => `gatsby-plugin-indieweb_${scope}_${key}`;
 
@@ -36,7 +36,7 @@ const defaultOptions = {
 };
 
 module.exports.onRenderBody = ({ setHeadComponents }, userOptions = {}) => {
-  const options = deepmerge(defaultOptions, userOptions);
+  const options = merge(defaultOptions, userOptions);
 
   let headComponents = [];
 
