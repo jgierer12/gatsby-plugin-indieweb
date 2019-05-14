@@ -10,6 +10,7 @@
   "author": "Jonas Gierer <hello@jonasgierer.com>",
   "license": "MIT",
   "scripts": {
+    "release": "np",
     "test": "run-s lint",
     "lint": "run-p --print-label --continue-on-error lint:*",
     "lint:js": "eslint --color --ignore-path .gitignore \"**/*.js\"",
