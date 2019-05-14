@@ -1,6 +1,10 @@
 {
   "name": "gatsby-plugin-indieweb",
   "version": "1.0.1",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+    ],
   "description": "IndieWeb-ify your Gatsby site",
   "repository": "https://github.com/jgierer12/gatsby-plugin-indieweb",
   "author": "Jonas Gierer <hello@jonasgierer.com>",
