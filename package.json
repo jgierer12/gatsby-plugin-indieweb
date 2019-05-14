@@ -11,17 +11,12 @@
   "license": "MIT",
   "scripts": {
     "test": "run-s lint",
-    "format": "run-p --print-label format:*",
-    "format:js": "run-s \"_eslint -- --fix\"",
-    "format:other": "run-s \"_prettier -- --write\"",
     "lint": "run-p --print-label --continue-on-error lint:*",
-    "lint:js": "run-s _eslint",
-    "lint:other": "run-s _prettier",
-    "_eslint": "eslint --color --ignore-path .gitignore \"**/*.js\"",
-    "_prettier": "prettier --check --ignore-path .gitignore \"**/*.{json,md,mdx,yml,graphql}\""
+    "lint:js": "eslint --color --ignore-path .gitignore \"**/*.js\"",
+    "lint:other": "prettier --check --ignore-path .gitignore \"**/*.{json,md,mdx,yml,graphql}\""
   },
   "devDependencies": {
-    "@jgierer12/js-configs": "^0.1.1",
+    "@jgierer12/js-configs": "^1.0.1",
     "eslint": "^5.16.0",
     "np": "^4.0.2",
     "npm-run-all": "^4.1.5",
