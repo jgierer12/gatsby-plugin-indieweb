@@ -18,9 +18,9 @@
   "devDependencies": {
     "@jgierer12/js-configs": "^1.0.1",
     "eslint": "^5.16.0",
-    "np": "^4.0.2",
+    "np": "^5.0.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.16.4"
+    "prettier": "^1.17.1"
   },
   "peerDependencies": {
     "gatsby": ">=2",
