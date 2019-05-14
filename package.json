@@ -7,14 +7,9 @@
   "license": "MIT",
   "scripts": {
     "test": "run-s lint",
-    "format": "run-p --print-label format:*",
-    "format:js": "run-s \"_eslint -- --fix\"",
-    "format:other": "run-s \"_prettier -- --write\"",
     "lint": "run-p --print-label --continue-on-error lint:*",
-    "lint:js": "run-s _eslint",
-    "lint:other": "run-s _prettier",
-    "_eslint": "eslint --color --ignore-path .gitignore \"**/*.js\"",
-    "_prettier": "prettier --check --ignore-path .gitignore \"**/*.{json,md,mdx,yml,graphql}\""
+    "lint:js": "eslint --color --ignore-path .gitignore \"**/*.js\"",
+    "lint:other": "prettier --check --ignore-path .gitignore \"**/*.{json,md,mdx,yml,graphql}\""
   },
   "devDependencies": {
     "@jgierer12/js-configs": "^1.0.1",
