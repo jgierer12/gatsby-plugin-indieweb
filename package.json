@@ -28,6 +28,6 @@
     "react": ">=16"
   },
   "dependencies": {
-    "merge-deep": "^3.0.2"
+    "lodash.merge": "^4.6.1"
   }
 }

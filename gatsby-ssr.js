@@ -1,5 +1,5 @@
 const React = require(`react`);
-const merge = require(`merge-deep`);
+const merge = require(`lodash.merge`);
 
 const getKey = (scope, key) => `gatsby-plugin-indieweb_${scope}_${key}`;
 
